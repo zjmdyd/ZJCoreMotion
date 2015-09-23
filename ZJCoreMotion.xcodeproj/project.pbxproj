@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66F339891B9D7F3500C6BB1A /* ZJGyroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F339881B9D7F3500C6BB1A /* ZJGyroViewController.m */; };
+		66F339901B9D7FCA00C6BB1A /* ZJAccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F3398F1B9D7FCA00C6BB1A /* ZJAccelerometerViewController.m */; };
+		66F339931B9D7FF600C6BB1A /* ZJMagnetometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F339921B9D7FF600C6BB1A /* ZJMagnetometerViewController.m */; };
+		66F339961B9D92C600C6BB1A /* ZJUserAccelerationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F339951B9D92C600C6BB1A /* ZJUserAccelerationViewController.m */; };
+		66F3399A1B9D9A3900C6BB1A /* ZJCMAttitudeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F339991B9D9A3900C6BB1A /* ZJCMAttitudeViewController.m */; };
+		66F716EF1B91AE4F00DDFAFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F716EE1B91AE4F00DDFAFD /* main.m */; };
+		66F716F21B91AE4F00DDFAFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F716F11B91AE4F00DDFAFD /* AppDelegate.m */; };
+		66F716F51B91AE4F00DDFAFD /* ZJCoreMotion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66F716F31B91AE4F00DDFAFD /* ZJCoreMotion.xcdatamodeld */; };
+		66F716F81B91AE4F00DDFAFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F716F71B91AE4F00DDFAFD /* ViewController.m */; };
+		66F716FB1B91AE4F00DDFAFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F716F91B91AE4F00DDFAFD /* Main.storyboard */; };
+		66F716FD1B91AE4F00DDFAFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F716FC1B91AE4F00DDFAFD /* Images.xcassets */; };
+		66F717001B91AE4F00DDFAFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F716FE1B91AE4F00DDFAFD /* LaunchScreen.xib */; };
+		66F7170C1B91AE5000DDFAFD /* ZJCoreMotionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F7170B1B91AE5000DDFAFD /* ZJCoreMotionTests.m */; };
+		66F7171C1B91AE6200DDFAFD /* ZJAnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F717181B91AE6200DDFAFD /* ZJAnswerViewController.m */; };
+		66F7171D1B91AE6200DDFAFD /* ZJMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F7171A1B91AE6200DDFAFD /* ZJMotionManager.m */; };
+		66F717201B91AE9C00DDFAFD /* bnavi_icon_location_fixed.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F7171E1B91AE9C00DDFAFD /* bnavi_icon_location_fixed.png */; };
+		66F717211B91AE9C00DDFAFD /* bnavi_icon_location_fixed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F7171F1B91AE9C00DDFAFD /* bnavi_icon_location_fixed@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66F717061B91AE5000DDFAFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F716E11B91AE4F00DDFAFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F716E81B91AE4F00DDFAFD;
+			remoteInfo = ZJCoreMotion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66F339871B9D7F3500C6BB1A /* ZJGyroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJGyroViewController.h; sourceTree = "<group>"; };
+		66F339881B9D7F3500C6BB1A /* ZJGyroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJGyroViewController.m; sourceTree = "<group>"; };
+		66F3398E1B9D7FCA00C6BB1A /* ZJAccelerometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAccelerometerViewController.h; sourceTree = "<group>"; };
+		66F3398F1B9D7FCA00C6BB1A /* ZJAccelerometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAccelerometerViewController.m; sourceTree = "<group>"; };
+		66F339911B9D7FF600C6BB1A /* ZJMagnetometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJMagnetometerViewController.h; sourceTree = "<group>"; };
+		66F339921B9D7FF600C6BB1A /* ZJMagnetometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJMagnetometerViewController.m; sourceTree = "<group>"; };
+		66F339941B9D92C600C6BB1A /* ZJUserAccelerationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJUserAccelerationViewController.h; sourceTree = "<group>"; };
+		66F339951B9D92C600C6BB1A /* ZJUserAccelerationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJUserAccelerationViewController.m; sourceTree = "<group>"; };
+		66F339981B9D9A3900C6BB1A /* ZJCMAttitudeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCMAttitudeViewController.h; sourceTree = "<group>"; };
+		66F339991B9D9A3900C6BB1A /* ZJCMAttitudeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCMAttitudeViewController.m; sourceTree = "<group>"; };
+		66F716E91B91AE4F00DDFAFD /* ZJCoreMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJCoreMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F716ED1B91AE4F00DDFAFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F716EE1B91AE4F00DDFAFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66F716F01B91AE4F00DDFAFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66F716F11B91AE4F00DDFAFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66F716F41B91AE4F00DDFAFD /* ZJCoreMotion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZJCoreMotion.xcdatamodel; sourceTree = "<group>"; };
+		66F716F61B91AE4F00DDFAFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66F716F71B91AE4F00DDFAFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66F716FA1B91AE4F00DDFAFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66F716FC1B91AE4F00DDFAFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66F716FF1B91AE4F00DDFAFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		66F717051B91AE5000DDFAFD /* ZJCoreMotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJCoreMotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F7170A1B91AE5000DDFAFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F7170B1B91AE5000DDFAFD /* ZJCoreMotionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJCoreMotionTests.m; sourceTree = "<group>"; };
+		66F717171B91AE6200DDFAFD /* ZJAnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAnswerViewController.h; sourceTree = "<group>"; };
+		66F717181B91AE6200DDFAFD /* ZJAnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAnswerViewController.m; sourceTree = "<group>"; };
+		66F717191B91AE6200DDFAFD /* ZJMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJMotionManager.h; sourceTree = "<group>"; };
+		66F7171A1B91AE6200DDFAFD /* ZJMotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJMotionManager.m; sourceTree = "<group>"; };
+		66F7171E1B91AE9C00DDFAFD /* bnavi_icon_location_fixed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bnavi_icon_location_fixed.png; sourceTree = "<group>"; };
+		66F7171F1B91AE9C00DDFAFD /* bnavi_icon_location_fixed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bnavi_icon_location_fixed@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66F716E61B91AE4F00DDFAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F717021B91AE5000DDFAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66F3398A1B9D7F3A00C6BB1A /* 基础知识篇 */ = {
+			isa = PBXGroup;
+			children = (
+				66F3398C1B9D7F4900C6BB1A /* 加速计 */,
+				66F3398B1B9D7F4300C6BB1A /* 陀螺仪 */,
+				66F339971B9D92CA00C6BB1A /* 敲击返回父VC */,
+				66F3399B1B9D9A3D00C6BB1A /* CMAttitude */,
+				66F3398D1B9D7F5A00C6BB1A /* 磁力仪 */,
+			);
+			name = "基础知识篇";
+			sourceTree = "<group>";
+		};
+		66F3398B1B9D7F4300C6BB1A /* 陀螺仪 */ = {
+			isa = PBXGroup;
+			children = (
+				66F339871B9D7F3500C6BB1A /* ZJGyroViewController.h */,
+				66F339881B9D7F3500C6BB1A /* ZJGyroViewController.m */,
+			);
+			name = "陀螺仪";
+			sourceTree = "<group>";
+		};
+		66F3398C1B9D7F4900C6BB1A /* 加速计 */ = {
+			isa = PBXGroup;
+			children = (
+				66F3398E1B9D7FCA00C6BB1A /* ZJAccelerometerViewController.h */,
+				66F3398F1B9D7FCA00C6BB1A /* ZJAccelerometerViewController.m */,
+			);
+			name = "加速计";
+			sourceTree = "<group>";
+		};
+		66F3398D1B9D7F5A00C6BB1A /* 磁力仪 */ = {
+			isa = PBXGroup;
+			children = (
+				66F339911B9D7FF600C6BB1A /* ZJMagnetometerViewController.h */,
+				66F339921B9D7FF600C6BB1A /* ZJMagnetometerViewController.m */,
+			);
+			name = "磁力仪";
+			sourceTree = "<group>";
+		};
+		66F339971B9D92CA00C6BB1A /* 敲击返回父VC */ = {
+			isa = PBXGroup;
+			children = (
+				66F339941B9D92C600C6BB1A /* ZJUserAccelerationViewController.h */,
+				66F339951B9D92C600C6BB1A /* ZJUserAccelerationViewController.m */,
+			);
+			name = "敲击返回父VC";
+			sourceTree = "<group>";
+		};
+		66F3399B1B9D9A3D00C6BB1A /* CMAttitude */ = {
+			isa = PBXGroup;
+			children = (
+				66F339981B9D9A3900C6BB1A /* ZJCMAttitudeViewController.h */,
+				66F339991B9D9A3900C6BB1A /* ZJCMAttitudeViewController.m */,
+				66F717171B91AE6200DDFAFD /* ZJAnswerViewController.h */,
+				66F717181B91AE6200DDFAFD /* ZJAnswerViewController.m */,
+			);
+			name = CMAttitude;
+			sourceTree = "<group>";
+		};
+		66F716E01B91AE4F00DDFAFD = {
+			isa = PBXGroup;
+			children = (
+				66F716F91B91AE4F00DDFAFD /* Main.storyboard */,
+				66F716EB1B91AE4F00DDFAFD /* ZJCoreMotion */,
+				66F717081B91AE5000DDFAFD /* ZJCoreMotionTests */,
+				66F716EA1B91AE4F00DDFAFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66F716EA1B91AE4F00DDFAFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66F716E91B91AE4F00DDFAFD /* ZJCoreMotion.app */,
+				66F717051B91AE5000DDFAFD /* ZJCoreMotionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F716EB1B91AE4F00DDFAFD /* ZJCoreMotion */ = {
+			isa = PBXGroup;
+			children = (
+				66F716F01B91AE4F00DDFAFD /* AppDelegate.h */,
+				66F716F11B91AE4F00DDFAFD /* AppDelegate.m */,
+				66F716F61B91AE4F00DDFAFD /* ViewController.h */,
+				66F716F71B91AE4F00DDFAFD /* ViewController.m */,
+				66F3398A1B9D7F3A00C6BB1A /* 基础知识篇 */,
+				66F717191B91AE6200DDFAFD /* ZJMotionManager.h */,
+				66F7171A1B91AE6200DDFAFD /* ZJMotionManager.m */,
+				66F716FC1B91AE4F00DDFAFD /* Images.xcassets */,
+				66F7171E1B91AE9C00DDFAFD /* bnavi_icon_location_fixed.png */,
+				66F7171F1B91AE9C00DDFAFD /* bnavi_icon_location_fixed@2x.png */,
+				66F716FE1B91AE4F00DDFAFD /* LaunchScreen.xib */,
+				66F716F31B91AE4F00DDFAFD /* ZJCoreMotion.xcdatamodeld */,
+				66F716EC1B91AE4F00DDFAFD /* Supporting Files */,
+			);
+			path = ZJCoreMotion;
+			sourceTree = "<group>";
+		};
+		66F716EC1B91AE4F00DDFAFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F716ED1B91AE4F00DDFAFD /* Info.plist */,
+				66F716EE1B91AE4F00DDFAFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66F717081B91AE5000DDFAFD /* ZJCoreMotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				66F7170B1B91AE5000DDFAFD /* ZJCoreMotionTests.m */,
+				66F717091B91AE5000DDFAFD /* Supporting Files */,
+			);
+			path = ZJCoreMotionTests;
+			sourceTree = "<group>";
+		};
+		66F717091B91AE5000DDFAFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F7170A1B91AE5000DDFAFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66F716E81B91AE4F00DDFAFD /* ZJCoreMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F7170F1B91AE5000DDFAFD /* Build configuration list for PBXNativeTarget "ZJCoreMotion" */;
+			buildPhases = (
+				66F716E51B91AE4F00DDFAFD /* Sources */,
+				66F716E61B91AE4F00DDFAFD /* Frameworks */,
+				66F716E71B91AE4F00DDFAFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJCoreMotion;
+			productName = ZJCoreMotion;
+			productReference = 66F716E91B91AE4F00DDFAFD /* ZJCoreMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66F717041B91AE5000DDFAFD /* ZJCoreMotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F717121B91AE5000DDFAFD /* Build configuration list for PBXNativeTarget "ZJCoreMotionTests" */;
+			buildPhases = (
+				66F717011B91AE5000DDFAFD /* Sources */,
+				66F717021B91AE5000DDFAFD /* Frameworks */,
+				66F717031B91AE5000DDFAFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F717071B91AE5000DDFAFD /* PBXTargetDependency */,
+			);
+			name = ZJCoreMotionTests;
+			productName = ZJCoreMotionTests;
+			productReference = 66F717051B91AE5000DDFAFD /* ZJCoreMotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F716E11B91AE4F00DDFAFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZJ;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = YunTu;
+				TargetAttributes = {
+					66F716E81B91AE4F00DDFAFD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					66F717041B91AE5000DDFAFD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 66F716E81B91AE4F00DDFAFD;
+					};
+				};
+			};
+			buildConfigurationList = 66F716E41B91AE4F00DDFAFD /* Build configuration list for PBXProject "ZJCoreMotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66F716E01B91AE4F00DDFAFD;
+			productRefGroup = 66F716EA1B91AE4F00DDFAFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F716E81B91AE4F00DDFAFD /* ZJCoreMotion */,
+				66F717041B91AE5000DDFAFD /* ZJCoreMotionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F716E71B91AE4F00DDFAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F716FB1B91AE4F00DDFAFD /* Main.storyboard in Resources */,
+				66F717001B91AE4F00DDFAFD /* LaunchScreen.xib in Resources */,
+				66F716FD1B91AE4F00DDFAFD /* Images.xcassets in Resources */,
+				66F717211B91AE9C00DDFAFD /* bnavi_icon_location_fixed@2x.png in Resources */,
+				66F717201B91AE9C00DDFAFD /* bnavi_icon_location_fixed.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F717031B91AE5000DDFAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66F716E51B91AE4F00DDFAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F716F21B91AE4F00DDFAFD /* AppDelegate.m in Sources */,
+				66F7171D1B91AE6200DDFAFD /* ZJMotionManager.m in Sources */,
+				66F7171C1B91AE6200DDFAFD /* ZJAnswerViewController.m in Sources */,
+				66F339961B9D92C600C6BB1A /* ZJUserAccelerationViewController.m in Sources */,
+				66F339901B9D7FCA00C6BB1A /* ZJAccelerometerViewController.m in Sources */,
+				66F716EF1B91AE4F00DDFAFD /* main.m in Sources */,
+				66F339931B9D7FF600C6BB1A /* ZJMagnetometerViewController.m in Sources */,
+				66F339891B9D7F3500C6BB1A /* ZJGyroViewController.m in Sources */,
+				66F716F81B91AE4F00DDFAFD /* ViewController.m in Sources */,
+				66F3399A1B9D9A3900C6BB1A /* ZJCMAttitudeViewController.m in Sources */,
+				66F716F51B91AE4F00DDFAFD /* ZJCoreMotion.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F717011B91AE5000DDFAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F7170C1B91AE5000DDFAFD /* ZJCoreMotionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66F717071B91AE5000DDFAFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F716E81B91AE4F00DDFAFD /* ZJCoreMotion */;
+			targetProxy = 66F717061B91AE5000DDFAFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66F716F91B91AE4F00DDFAFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F716FA1B91AE4F00DDFAFD /* Base */,
+			);
+			name = Main.storyboard;
+			path = ZJCoreMotion;
+			sourceTree = "<group>";
+		};
+		66F716FE1B91AE4F00DDFAFD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F716FF1B91AE4F00DDFAFD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66F7170D1B91AE5000DDFAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66F7170E1B91AE5000DDFAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66F717101B91AE5000DDFAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJCoreMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66F717111B91AE5000DDFAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJCoreMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66F717131B91AE5000DDFAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZJCoreMotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJCoreMotion.app/ZJCoreMotion";
+			};
+			name = Debug;
+		};
+		66F717141B91AE5000DDFAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZJCoreMotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJCoreMotion.app/ZJCoreMotion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F716E41B91AE4F00DDFAFD /* Build configuration list for PBXProject "ZJCoreMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F7170D1B91AE5000DDFAFD /* Debug */,
+				66F7170E1B91AE5000DDFAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F7170F1B91AE5000DDFAFD /* Build configuration list for PBXNativeTarget "ZJCoreMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F717101B91AE5000DDFAFD /* Debug */,
+				66F717111B91AE5000DDFAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F717121B91AE5000DDFAFD /* Build configuration list for PBXNativeTarget "ZJCoreMotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F717131B91AE5000DDFAFD /* Debug */,
+				66F717141B91AE5000DDFAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		66F716F31B91AE4F00DDFAFD /* ZJCoreMotion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				66F716F41B91AE4F00DDFAFD /* ZJCoreMotion.xcdatamodel */,
+			);
+			currentVersion = 66F716F41B91AE4F00DDFAFD /* ZJCoreMotion.xcdatamodel */;
+			path = ZJCoreMotion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 66F716E11B91AE4F00DDFAFD /* Project object */;
+}
